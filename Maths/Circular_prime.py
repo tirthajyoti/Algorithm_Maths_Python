@@ -85,4 +85,4 @@ def circular_prime_count(N):
     return len(result)
 n_result = circular_prime_count(Nt)+2
 
-print ("Number of circular primes up to {} is: {}".format(Nt, n_result))
+print ("Number of circular primes up to {} is as following: {}".format(Nt, n_result))
