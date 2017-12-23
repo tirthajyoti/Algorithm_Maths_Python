@@ -32,9 +32,9 @@ def bubble_sort(array):
     return (array,swap_op)
 
 # User inputs for generating the random arrays                
-mini = int(input("Enter the minimum bound:"))
-maxi = int(input("Enter the maximum bound:"))
-num = int(input("Enter the size:"))
+mini = int(input("Please enter the minimum bound:"))
+maxi = int(input("Now enter the maximum bound:"))
+num = int(input("Finally enter the size:"))
 
 # Create random array based on user-specified minimum/maximum bounds and number of elements
 a= []
