@@ -2,8 +2,8 @@
 """
 Created on Fri Dec 22 18:44:02 2017
 @author: Tirthajyoti Sarkar
-Simple Selection sort with counter for total number of operations (finding minimum and swapping)
-Accepts user input on minimum and maximum bound of the array and the size of the array
+Simple selection sort with counter for total number of operations (finding minimum and swapping)
+Accepts user input on minimum and maximum bound of the array and the size of the array.
 """
 import random
 
