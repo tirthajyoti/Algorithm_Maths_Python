@@ -1,5 +1,7 @@
-## Various maths operations
+# Various maths operations
 
-* Prime number generation
-* Numpy and simple statistics
+* Various type of prime number generation
+* Various numerical sequence generation and counting
+* Fourier series calculations demo
+* Introduction to Numpy library and simple statistics
 * Area under curve of arbitrary function
