@@ -1,5 +1,5 @@
 # Various important algorithms
-### Sorting
+## Sorting and Selection
 * Bubble sort
 * Selection sort
 * Insertion sort
