@@ -55,15 +55,18 @@ def Dselect(my_list,n):
             A.append(my_list[i:i + chunk])
         #print("A:",A)
         for array in A:
+            # Note this sort is happening on a small array of fixed size (5) i.e. in O(1) time
             array.sort()
             medians.append(median(array))
         #print("Medians:",medians)
-        # Randomly choose a pivot index from 1 to length-1
+        # Sorts the medians and choose the 'median of the medians' as pivot
+        # Note this sort is happening on a very small array i.e. O(1) time
+        medians.sort()
+        #print("Medians sorted:",medians)
         p = Dselect(medians,int(length/10))
-        #print("My list:",my_list)
         p_idx=my_list.index(p)
         #print("Pivot index and pivots:{}, {}".format(p_idx,p))
-        # Partition based on the randomly chosen index
+        # Partition based on the chosen median of median pivot
         new_pivot = partition(my_list,p_idx)
         # Case to check if the new pivot returned by partition is the n-th order
         # Disabled because it was giving error on some cases and preventing the code to reach the base case
